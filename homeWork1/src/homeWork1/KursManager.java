@@ -6,6 +6,6 @@ public class KursManager {
 	}
 	
 	public void joinTheCourse(Kurs kurs) {
-		System.out.println("Kursa Katýlým Saðlandý : "+kurs.name);
+		System.out.println("Kursa Katilim Saglandi : "+kurs.name);
 	}
 }
