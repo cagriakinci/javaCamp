@@ -7,34 +7,34 @@ public class Main {
 		Kurs kurs1 = new Kurs
 				(
 						1,
-						"Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)",
-						"Engin Demiroğ",
-						"Ücretsiz",
-						"2 ay sürecek Yazılım Geliştirici Yetiştirme Kampımızın..."
+						"YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtirme KampÄ±(C# + Angular)",
+						"Engin DemiroÄŸ",
+						"Ãœcretsiz",
+						"2 ay sÃ¼recek YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtirme KampÄ±mÄ±zÄ±n..."
 						);
 		
 		Kurs kurs2 = new Kurs
 				(
 						2,
-						"Yazılım Geliştirici Yetiştirme Kampı(Java + React)",
-						"Engin Demiroğ",
-						"Ücretsiz",
-						"2 ay sürecek Yazılım Geliştirici Yetiştirme Kampımızın..."
+						"YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtirme KampÄ±(Java + React)",
+						"Engin DemiroÄŸ",
+						"Ãœcretsiz",
+						"2 ay sÃ¼recek YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtirme KampÄ±mÄ±zÄ±n..."
 						);
 		
 		Kurs kurs3 = new Kurs
 				(
 						3,
-						"Programlamaya Giriş için Temel Kurs",
-						"Engin Demiroğ",
-						"Ücretsiz",
-						"Python,java,c# gibi tüm programlama dilleri için temel programlama mantığını anlaşılır..."
+						"Programlamaya GiriÅŸ iÃ§in Temel Kurs",
+						"Engin DemiroÄŸ",
+						"Ãœcretsiz",
+						"Python,java,c# gibi tÃ¼m programlama dilleri iÃ§in temel programlama mantÄ±ÄŸÄ±nÄ± anlatÄ±yor..."
 						);
 				
 		Kurs[] kurslar = {kurs1,kurs2,kurs3};
 		
 		for(Kurs kurs : kurslar) {
-			System.out.println("Kurs Adı : "+kurs.name);
+			System.out.println("Kurs AdÄ± : "+kurs.name);
 		}
 		
 		KursManager kursManager = new KursManager();
